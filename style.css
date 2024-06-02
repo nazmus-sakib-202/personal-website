@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: "Poppins", sans-serif;
 }
 h1{
@@ -15,4 +16,111 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    height: 700px;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #f46f85, rgb(247, 83, 111));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.plain{
+    font-weight: 300;
+}
+p{
+    color: dimgray;
+}
+#p1{
+    padding-bottom: 20px;
+}
+#p2{
+    padding-bottom: 20px;
+}
+.biography-area{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work-area{
+    background-image: url("latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.one-third-width{
+    width: 25%;
+    float: left;
+    margin-top: 15%;
+    margin-left: 4%;
+    padding-left: 2%;
+    align-items: center;
+}
+.one-third-width img{
+    width: 100%;
+}
+.client{
+    background-image: url(footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#work{
+    text-align: center;
+    padding-top: 15px;
+}
+.comment{
+    text-align: center;
+    padding-bottom: 60px;
+}
+h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.ceo{
+    padding-bottom: 30px;
+}
+.lorem{
+    font-size: 15px;
+    color: black;
+}
+#message-text{
+    color: white;
+    font-weight: 300;
+}
+.message{
+    text-align: center;
+    background-color: #e44a7e;
+    color: white;
+    border-radius: 5px;
+    height: 150px;
+    margin: 20px 300px;
+    padding-top: 30px;
+      
+}
+#top-left{
+    padding-top: 5%;
+}
+#mid-right{
+    padding-top: 7%;
+}
+footer p{
+    text-align: center;
+}
+#mid-left{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#top-right{
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
